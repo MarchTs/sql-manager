@@ -1,6 +1,6 @@
 {
     "name": "@march_ts/sql-manager",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "mssql manager",
     "main": "sql-manager.js",
     "scripts": {
@@ -12,8 +12,8 @@
     "author": "Thanapat Saisoontornwattana",
     "license": "ISC",
     "dependencies": {
+        "@march_ts/log-manager": "^1.0.1",
         "http-requests": "^1.0.2",
-        "mssql": "^5.0.3",
-        "log-manager": "file:../LogManager"
+        "mssql": "^5.0.3"
     }
 }
