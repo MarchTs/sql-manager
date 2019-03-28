@@ -1,0 +1,19 @@
+{
+    "name": "@march_ts/sql-manager",
+    "version": "1.0.0",
+    "description": "mssql manager",
+    "main": "sql-manager.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "sql-manager"
+    ],
+    "author": "Thanapat Saisoontornwattana",
+    "license": "ISC",
+    "dependencies": {
+        "http-requests": "^1.0.2",
+        "mssql": "^5.0.3",
+        "log-manager": "file:../LogManager"
+    }
+}
