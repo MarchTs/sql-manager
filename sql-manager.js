@@ -1,6 +1,6 @@
 const sql = require("mssql");
-const config = require("build-variance");
-const logManager = require("log-manager");
+const config = require("@march_ts/build-variant");
+const logManager = require("@march_ts/log-manager");
 
 const poolLog = new sql.ConnectionPool(config.configSql, error => {
     if (error !== null) console.log("connect to log db error: ", error);
